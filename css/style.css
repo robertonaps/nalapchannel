@@ -118,7 +118,8 @@ justify-items: center;
   display: block;
   margin: auto;
   padding: auto;
-  width: 50%;
+  width: 80%;
+  height: auto;
 }
 
 .sec-two h2{
@@ -140,23 +141,19 @@ justify-items: center;
 
 }
 
-
 .b-adj {
   text-align: center;
-
 }
 .b-adj button {
 
-  padding: 1rem;
-  margin: auto;
-  width: 100px;
-  display: inline-block;
-
+  padding: auto;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
 }
 .b-adj button:hover{
   background-color: darkturquoise;
 }
-
 
 .b-adj button a {
 
@@ -165,8 +162,6 @@ color:black;
  
 
 }
-
-
 
 footer {
 padding: 2rem;
