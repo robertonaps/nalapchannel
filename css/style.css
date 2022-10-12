@@ -8,13 +8,13 @@ margin: 0%;
 
 .navbar-brand {
   color: #ebecec;
-  font-family: Ariel;
+  font-family: 'Aclonica', sans-serif;
   font-weight: bold;
 }
 
 ul li .nav-link {
   color: #ffffff;
-  font-weight: bold;
+  font-family: 'STIX Two Text', serif;
   
 }
 
@@ -118,7 +118,7 @@ justify-items: center;
   display: block;
   margin: auto;
   padding: auto;
-  width: 80%;
+  width: 85%;
   height: auto;
 }
 
@@ -169,6 +169,24 @@ padding: 2rem;
   text-align: center;
   color: floralwhite;
 
+}
+
+
+/* about us */
+
+.sec-three {
+
+  background-color:#ebbc58;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.sec-three div .row {
+
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 
