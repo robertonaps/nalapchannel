@@ -5,22 +5,53 @@ margin: 0%;
 }
 
 
+.navbar{
+
+  background-color:rgba(46, 73, 230, 0.795);
+}
+
 
 .navbar-brand {
   color: #ebecec;
   font-family: 'Aclonica', sans-serif;
   font-weight: bold;
+  
+}
+.navbar-brand:hover{
+  color: #ebecec;
+  font-family: 'Aclonica', sans-serif;
+  font-weight: bold;
+  
 }
 
 ul li .nav-link {
   color: #ffffff;
   font-family: 'STIX Two Text', serif;
+  margin: 15px;
+  padding: auto;
   
 }
+
+ul li .nav-link:hover {
+  color: #ffffff;
+  font-family: 'STIX Two Text', serif;
+  margin: 15px;
+  padding: auto;
+  
+}
+
 
 ul li{
   justify-items: center;
   text-align: center;
+}
+
+ul li:hover{
+  justify-items: center;
+  text-align: center;
+  background-color: rgba(43, 55, 235, 0.849);
+  border-radius: 10px;
+  border-bottom: 2px solid;
 }
 
 /*cover*/
@@ -159,8 +190,9 @@ justify-items: center;
   filter: drop-shadow(2px 4px 6px rgb(61, 214, 235));
 background-color: rgba(8, 174, 196, 0.986); /* Just adjust the color or opacity to make the text pop! */
 box-shadow: inset 0 0 0 200px rgba(17, 89, 223, 0.08);
-
-}
+width: 125px;
+cursor: pointer;
+} 
 
 .b-adj button a {
 
