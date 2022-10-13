@@ -263,17 +263,32 @@ padding: 2rem;
 
 /*     IMAGEAQ.HTML*/
 
+.sec-two-page {
+  background-color: rgba(0, 0, 0, 0.90);
 
-.sec-two .row .col .page-pic {
-  display: flex;
+}
+
+.sec-two-page .img-page .row {
+
+  padding: 2rem;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  color:rgb(236, 190, 35);
+
+}
+
+.sec-two-page .img-page .row .col .page-pic {
   margin: auto;
   padding: auto;
   height: auto;
   width: 100%;
-  width: 333px;
+  width: 300px;
+  margin: 1rem;
+  
 }
 
-.sec-two .row .col .page-pic p{
+.sec-two-page .img-page .row .col .page-pic p{
   text-align: center;
 }
 
