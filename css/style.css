@@ -261,6 +261,22 @@ padding: 2rem;
 
 }
 
+/*     IMAGEAQ.HTML*/
+
+
+.sec-two .row .col .page-pic {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  height: auto;
+  width: 100%;
+  width: 333px;
+}
+
+.sec-two .row .col .page-pic p{
+  text-align: center;
+}
+
 
 
 
