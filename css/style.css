@@ -280,8 +280,11 @@ padding: 2rem;
 
 .sec-two-page .img-page .row .col {
 
-  padding: 20px;
-  margin: auto;
+  padding:33px;
+  margin: 0px;
+  border: 2px solid black;
+  justify-content: center;
+  justify-items: center;
   
 
 }
