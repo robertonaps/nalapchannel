@@ -5,10 +5,8 @@ margin: 0%;
 }
 .navbar{
 
-  background-color:rgba(0, 0, 0, 0.849);
+  background-color:rgb(22, 8, 224);
 }
-
-
 .navbar-brand {
   color: #ebecec;
   font-family: 'Aclonica', sans-serif;
@@ -55,8 +53,8 @@ ul li:hover{
 /*cover*/
 .sec-cover {
   width: 100%;
-  height: calc(100vh - 100px);
-  background-image: url('image/310841918_1191789771369987_1424673138626200247_n.jpg');
+  height: calc(100vh - 300px);
+  background-image:  url('image/310841918_1191789771369987_1424673138626200247_n.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +74,7 @@ font-family: 'Diplomata', cursive;
  text-align: center;
  font-weight: 15px;
  text-shadow: 2px 2px 3px  rgb(0, 0, 0);
+ background-color: rgba(0, 0, 0, 0.6);
  
  
  
@@ -83,12 +82,13 @@ font-family: 'Diplomata', cursive;
 }
 
 .sec-cover p {
-  line-height: 5;
+  line-height: 2;
 font-weight:bold;
 font-size: 40px;
   color: #fcecec;
  text-align: center;
  text-shadow: 5px 2px 5px #020202;
+ background-color: rgba(0, 0, 0, 0.6);
 
 }
 
@@ -137,7 +137,7 @@ font-weight:bold;
 .sec-two {
 
   background-color: rgba(12, 11, 11, 0.911);
-
+  
 }
 
 
