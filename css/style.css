@@ -3,11 +3,9 @@ padding: 0%;
 margin: 0%;
 
 }
-
-
 .navbar{
 
-  background-color:rgba(46, 73, 230, 0.795);
+  background-color:rgba(0, 0, 0, 0.849);
 }
 
 
@@ -58,7 +56,7 @@ ul li:hover{
 .sec-cover {
   width: 100%;
   height: calc(100vh - 100px);
-  background-image: url('image/cover.jpg');
+  background-image: url('image/310841918_1191789771369987_1424673138626200247_n.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,29 +71,35 @@ display: table;
 
 .sec-cover h2 {
 font-family: 'Diplomata', cursive;
-  font-size: 60px;
-  color: #f4f4f4;
+  font-size: 100px;
+  color: #ffffff;
  text-align: center;
  font-weight: 15px;
+ text-shadow: 2px 2px 3px  rgb(0, 0, 0);
+ 
+ 
+ 
  
 }
 
 .sec-cover p {
   line-height: 5;
 font-weight:bold;
-  color: #f4f4f4;
+font-size: 40px;
+  color: #fcecec;
  text-align: center;
+ text-shadow: 5px 2px 5px #020202;
+
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1000px) {
 .sec-cover {
   width: 100%;
   height: 500px;
-  background-image: url('image/cover.jpg');
+  background-image: url('image/310841918_1191789771369987_1424673138626200247_n.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: .90;
 display: table;
 }
 
@@ -103,14 +107,16 @@ display: table;
   display: table-cell;
   vertical-align: middle;
   
+  
 }
 
 .sec-cover h2 {
 font-family: 'Diplomata', cursive;
   font-size: 60px;
-  color: #f4f4f4;
+  color: #faf3f3e1;
  text-align: center;
  font-weight: 15px;
+ text-shadow: 2px 2px 3px  rgb(0, 0, 0);
  
 }
 
@@ -119,189 +125,129 @@ font-family: 'Diplomata', cursive;
 font-weight:bold;
   color: #f4f4f4;
  text-align: center;
+ text-shadow: 5px 2px 5px #020202;
 }
 
   
 }/* end cover */
 
 
+/* SECTION 2 */
+
 .sec-two {
-background-color: rgba(0, 0, 0, 0.90);
-backdrop-filter: saturate(180%) blur(10px);
+
+  background-color: rgba(12, 11, 11, 0.911);
 
 }
 
-.sec-two .row {
 
+.sz_sec {
+
+  text-align: center;
+  color: darkgoldenrod;
   padding: 2rem;
   margin: auto;
-
-}
-
-.sec-two .row .col{
-
-padding: 5px;
-display: inline-block;
-justify-content: center;
-justify-items: center;
-
-}
-
-.sec-two .row .col img {
-  display: block;
-  margin: auto;
-  padding: auto;
-  width: 85%;
-  height: auto;
-}
-
-.sec-two h2{
-  padding: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color:rgb(236, 190, 35);
-
-}
-
-.sec-two .col p {
-
-  padding: 2rem;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: bold;
-  color: #f1f3f3;
-
-
-
 }
 
-.b-adj {
-  text-align: center;
-}
-.b-adj button {
+.sec-two .cover-img-game {
 
+  padding: 3rem;
+  margin: auto;
+}
+.sec-two .cover-img-game .img_cov {
+
+  display: block;
+  width: 60%;
   padding: auto;
-  margin: 5px;
-  width: 250px;
-  height: 50px;
-  border-radius:20px;
-}
-.b-adj button:hover{
-  filter: drop-shadow(2px 4px 6px rgb(61, 214, 235));
-background-color: rgba(8, 174, 196, 0.986); /* Just adjust the color or opacity to make the text pop! */
-box-shadow: inset 0 0 0 200px rgba(17, 89, 223, 0.08);
-
-cursor: pointer;
-} 
-
-.b-adj button a {
-
-text-decoration: none;
-color:black;
-
-}/* endgamecove */
-
-
-
-
-/* about */
-
-.sec-three {
-
-  background-color:#ebbc58;
-  padding: 0px;
-  margin: 0px;
-
-}
-
-.sec-three div .row {
-
-  padding: 2rem;
   margin: auto;
-  text-align: center;
-}
-
-/*Contact Me */
-.sec-four {
-  background-color:rgba(202, 219, 233, 0.438);
-  padding: 0px;
-  margin: 0px;
-
-}
-
-.sec-four div .row {
-
-  padding: 2rem;
-  margin: auto;
-  text-align: center;
-
-}
-
-.sec-four div .row .col a {
-
-  text-decoration: none;
-  color: rgb(20, 20, 20);
-  
-  
-}
-
-.sec-four div .row .col a:hover {
-
-  color: rgb(46, 46, 226);
-
-
-}
-
-
-footer {
-padding: 2rem;
-  background-color:rgb(17, 17, 17);
-  text-align: center;
-  color: floralwhite;
-
-}
-
-/*     IMAGEAQ.HTML*/
-
-.sec-two-page {
-  background-color: rgba(0, 0, 0, 0.90);
-
-}
-
-.sec-two-page .img-page .row {
-
-  padding: 2rem;
-  margin: auto;
-  font-weight: bold;
-  text-align: center;
-  color:rgb(236, 190, 35);
-
-}
-
-.sec-two-page .img-page .row .col {
-
-  padding:33px;
-  margin: 0px;
-  border: 2px solid black;
-  justify-content: center;
-  justify-items: center;
-  
-
-}
-
-.sec-two-page .img-page .row .col .page-pic {
-  margin: auto;
-  padding: auto;
   height: auto;
-  width: 100%;
-  width: 250px;
-  margin: auto;
+
+}
+
+.sec-two .cover-img-game .par-img {
+
+color: azure;
+padding: 1rem;
+text-align: center;
+font-size: 100;
+
+}
+
+.sec-two  .vert-cent {
+  display: block;
+  justify-items: center;
+  padding: 2rem;
+  text-align: center;
+
   
 }
 
-.sec-two-page .img-page .row .col .page-pic p {
-  text-align: center;
+.sec-two .vert-cent .bbtn-download {
 
+width: 250px;
+ height: 50px;
+ padding: auto;
+ margin: 5px;
+ border-radius: 20px;
+ background-color: rgba(231, 209, 9, 0.877);
+
+}
+.sec-two .vert-cent .bbtn-download:hover {
+
+ background-color: rgba(22, 109, 223, 0.842);
+ 
+
+}
+
+.sec-two .cover-img-game .vert-cent .bbtn-download a {
+
+  text-align: center;
+  color: #010102f3;
+  font-weight: 200;
+  font-size: bold;
+ 
+}
+
+
+/*albumaq.html*/
+
+
+.sec-one {
+
+background-color: rgba(14, 14, 15, 0.774);
+}
+
+.row {
+padding: 2rem;
+}
+
+.row .h-alb{
+  text-align: center;
+  color: rgba(184, 136, 14, 0.932);
+  font-size: bold;
+  padding: 2rem;
+
+}
+
+.row .col {
+  display: block;
+  text-align: center;
+  margin: auto;
+
+}
+.row .col .alb-page {
+
+  padding: 2rem;
+  width: 100%;
+  width: 333px;
+  
+}
+
+.row .col .par-page {
+
+  color: #f4f4f4;
+  font-size: bold;
 }
 
 
@@ -309,3 +255,27 @@ padding: 2rem;
 
 
 
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+
+  background-color: black;
+
+}
+
+
+.foter-algn {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  color: #f4f4f4;
+
+}
