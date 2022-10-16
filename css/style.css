@@ -172,9 +172,16 @@ font-weight:bold;
   font-size: bold;
 }
 
+.sz_sec .h-main-2 {
+
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+
+}
+
 .sec-two .cover-img-game {
 
-  padding: 3rem;
+  padding: 0px;
   margin: auto;
 }
 .sec-two .cover-img-game .img_cov {
@@ -193,6 +200,7 @@ color: azure;
 padding: 1rem;
 text-align: center;
 font-size: 100;
+font-family: 'Bitter', serif;
 
 }
 
