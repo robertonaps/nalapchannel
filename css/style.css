@@ -79,7 +79,8 @@ ul li:hover{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 2px solid rgb(13, 168, 240);
+  border-top: 2px solid rgb(13, 168, 240);
+  border-bottom: 2px solid rgb(13, 168, 240);
 display: table;
 }
 
@@ -191,6 +192,7 @@ font-weight:bold;
   padding: auto;
   margin: auto;
   height: auto;
+  
 
 }
 
@@ -209,6 +211,8 @@ font-family: 'Bitter', serif;
   justify-items: center;
   padding: 2rem;
   text-align: center;
+  
+
 
   
 }
@@ -236,8 +240,17 @@ width: 250px;
   color: #010102f3;
   font-weight: 200;
   font-size: bold;
+  
  
 }
+
+.vert-cent  a {
+
+  text-decoration: none;
+  color: #010102f3;
+
+}
+
 
 
 /*albumaq.html*/
@@ -245,7 +258,7 @@ width: 250px;
 
 .sec-one {
 
-background-color: rgba(14, 14, 15, 0.774);
+  background-color: rgba(12, 11, 11, 0.911);
 }
 
 .row {
