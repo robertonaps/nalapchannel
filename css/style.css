@@ -251,6 +251,35 @@ width: 250px;
 
 }
 
+/* section-thre-about-media-home */
+
+.sec-about-media {
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,25,130,1) 89%, rgba(38,0,255,1) 100%);
+  border-top: 2px solid rgb(13, 168, 240);
+  border-bottom: 2px solid rgb(13, 168, 240);
+
+}
+
+
+.about-h .h-about-media {
+  color: #f4f4f4;
+  padding-top: 2rem;
+}
+
+.about-h .p-about-media{
+  text-align: left;
+  color: #f4f4f4;
+}
+
+.about-h .span-about-media {
+  
+  color: #f4f4f4;
+  
+
+}
+
 
 
 /*albumaq.html*/
@@ -260,35 +289,41 @@ width: 250px;
 
   background-color: rgba(12, 11, 11, 0.911);
 }
+.h-alb {
 
-.row {
-padding: 2rem;
-}
-
-.row .h-alb{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
   text-align: center;
   color: rgba(184, 136, 14, 0.932);
   font-size: bold;
   padding: 2rem;
 
+
 }
+
+ .row {
+margin: 0px;
+padding-bottom: 2rem;
+
+}
+
 
 .row .col {
   display: block;
   text-align: center;
-  margin: auto;
+  margin: 2px;
+  
 
 }
 .row .col .alb-page {
-
-  padding: 2rem;
+  display: block;
   width: 100%;
-  width: 333px;
+  height: 100%;
   
 }
 
 .row .col .par-page {
-
+  padding: 10px;
   color: #f4f4f4;
   font-size: bold;
 }
@@ -306,10 +341,14 @@ padding: 2rem;
 
 
 
+
+
+
+
+
 /*Footer*/
 
 footer{
-
   background-color: black;
 
 }
