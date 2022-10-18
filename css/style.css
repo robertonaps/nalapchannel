@@ -329,6 +329,31 @@ padding-bottom: 2rem;
 }
 
 
+.media-logo {
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #f4f4f4;
+  text-align: right;
+}
+
+.media-logo .bi{
+
+  margin: 5px;
+
+
+  
+}
+
+.media-logo .bi:hover{
+
+  margin: 5px;
+  color: aqua;
+  
+}
+
+
+
 
 
 
