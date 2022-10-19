@@ -7,7 +7,7 @@
 
 
 
-  // social media
+  // social media onclick
 
 function mysocialfb(){
 location.replace("https://web.facebook.com/nalapchan")

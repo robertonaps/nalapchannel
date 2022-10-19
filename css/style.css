@@ -38,8 +38,33 @@ border-radius: 50%;
 ul {
 
   padding: 0px;
+  margin:auto;
 
 }
+
+.dropdown-menu {
+
+  background-color: rgba(43, 55, 235, 0.849);
+  color: #ffffff;
+  
+  
+
+}
+
+.dropdown-menu .dropdown-item{
+
+  color: #ffffff;
+  font-family: 'STIX Two Text', serif;
+
+}
+
+.dropdown-menu .dropdown-item:hover {
+
+  background-color: rgba(43, 55, 235, 0.849);
+
+}
+
+
 
 ul li .nav-link {
   color: #ffffff;
