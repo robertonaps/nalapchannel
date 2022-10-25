@@ -375,7 +375,11 @@ ul li:hover {
   }
 }
 
+
+
+
 /* blog.html */
+
 
 .sec-one-blogaq {
   background-color: rgba(12, 11, 11, 0.911);
@@ -389,6 +393,30 @@ ul li:hover {
   font-size: 40px;
   color: darkgoldenrod;
 }
+
+
+.row {
+
+  background-color: rgba(0, 0, 0,0.6);
+  
+}
+
+.vid .row{
+  padding: 1rem;
+  text-align: center;
+  
+
+}
+.vid iframe{
+
+  width: 100%;
+  height: auto;
+
+}
+
+
+
+
 
 /*Footer*/
 
@@ -417,15 +445,3 @@ footer {
 }
 
 
-.vd {
-
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-.vid iframe{
-
-  width: 100%;
-  height: auto;
-
-}
