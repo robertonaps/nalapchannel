@@ -1,7 +1,18 @@
+// modal
+
+var fullimagesbox = document.getElementById("fullimagesbox");
+var fullpic = document.getElementById("fullpic");
 
 
-// this for  modal images once they can click on single images
+function openfullimages(pic) {
+
+    fullimagesbox.style.display="flex";
+    fullpic.src = pic;
+}
+
+function closefullimages(){
+
+    fullimagesbox.style.display="none";
 
 
-const imgalb = document.querySelector('img-alb');
-const imgpic = document.getElementsByClassName('img-pic');
+}
