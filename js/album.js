@@ -14,5 +14,4 @@ function closefullimages(){
 
     fullimagesbox.style.display="none";
 
-
 }
