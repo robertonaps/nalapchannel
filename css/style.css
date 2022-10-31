@@ -447,8 +447,13 @@ ul li:hover {
   color: #ffffff;
   font-size: 50px;
 }
+
+.container {
+
+  padding-bottom: 2rem;
+}
 /* phone */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   
   .main-sec {
     background-color: rgba(12, 11, 11, 0.911);
@@ -512,4 +517,32 @@ footer {
 }
 .privacy .privacy-page:hover {
   border-bottom: 2px solid rgb(90, 197, 230);
+}
+
+@media only screen and (max-width: 550px) {
+
+  footer {
+    background-color: black;
+  }
+  
+  .foter-algn {
+    padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    color: #f4f4f4;
+  }
+  
+  .privacy {
+    padding-bottom: 20px;
+  }
+  
+  .privacy .privacy-page {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 10px;
+  }
+  .privacy .privacy-page:hover {
+    border-bottom: 2px solid rgb(90, 197, 230);
+  }
+  
 }
