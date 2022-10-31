@@ -382,7 +382,7 @@ ul li:hover {
   }
 }
 
-/* blog.html */
+/* blogaq.html */
 
 .sec-one-blogaq {
   background: rgb(2, 0, 36);
@@ -403,20 +403,66 @@ ul li:hover {
   color: darkgoldenrod;
 }
 
-.row {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+.vid-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem 2rem;
 }
 
-.vid .row {
-  padding: 1rem;
+.vid-box .video-show {
+
+  display: block;
   text-align: center;
+
 }
-.vid iframe {
-  width: 100%;
-  height: auto;
+
+.vid-box .video-show .vid1 {
+
+  padding-top: 2rem;
 }
+
+.vid-box .video-show .vid1 .h-vid {
+  color: #f4f4f4;
+  padding: 10px 10px;
+}
+.vid-box .video-show .vid1 iframe{
+  width: 700px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 525px) {
+
+  .vid-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem 2rem;
+  }
+  
+  .vid-box .video-show {
+  
+    display: block;
+    text-align: center;
+  
+  }
+  
+  .vid-box .video-show .vid1 {
+  
+    padding-top: 2rem;
+  }
+
+  .vid-box .video-show .vid1 iframe{
+    width: 100%;
+    max-width: 500px;
+  }
+    
+  
+  
+  .vid-box .video-show .vid1 .h-vid {
+    color: #f4f4f4;
+    padding: 10px 10px;
+  }
+  
+}
+
+
 
 /* main.HTML */
 
