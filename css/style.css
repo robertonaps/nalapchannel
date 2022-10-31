@@ -264,7 +264,15 @@ ul li:hover {
 /*albumaq.html*/
 
 .album-aq {
-  background-color: rgba(12, 11, 11, 0.911);
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 25, 130, 1) 89%,
+    rgba(38, 0, 255, 1) 100%
+  );
+
 }
 
 .h-alb {
@@ -279,6 +287,10 @@ ul li:hover {
 .img-alb {
   padding: 2rem;
   text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
 }
 
 .img-alb .img-pic {
@@ -373,7 +385,13 @@ ul li:hover {
 /* blog.html */
 
 .sec-one-blogaq {
-  background-color: rgba(12, 11, 11, 0.911);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 25, 130, 1) 89%,
+    rgba(38, 0, 255, 1) 100%
+  );
 }
 
 .h-blog {
@@ -387,6 +405,8 @@ ul li:hover {
 
 .row {
   background-color: rgba(0, 0, 0, 0.6);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .vid .row {
@@ -408,8 +428,7 @@ ul li:hover {
     rgba(11, 25, 130, 1) 89%,
     rgba(38, 0, 255, 1) 100%
   );
-  border-top: 2px solid rgb(13, 168, 240);
-  border-bottom: 2px solid rgb(13, 168, 240);
+  
   text-align: center;
   
 }
@@ -432,7 +451,8 @@ ul li:hover {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background: rgba(0, 0, 0, 0.6);
-  border-radius: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 
 }
 
@@ -449,7 +469,6 @@ ul li:hover {
 }
 
 .container {
-
   padding-bottom: 2rem;
 }
 /* phone */
