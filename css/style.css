@@ -294,7 +294,7 @@ ul li:hover {
   transform: scale(0.8);
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .img-alb .img-pic {
     width: 100%;
     height: auto;
@@ -340,7 +340,7 @@ ul li:hover {
   color: rgba(224, 7, 7, 0.925);
 }
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) {
   .full-images {
     width: 100%;
     height: 100vh;
@@ -401,8 +401,17 @@ ul li:hover {
 /* main.HTML */
 
 .main-sec {
-  background-color: rgba(12, 11, 11, 0.911);
-  padding: 0px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 25, 130, 1) 89%,
+    rgba(38, 0, 255, 1) 100%
+  );
+  border-top: 2px solid rgb(13, 168, 240);
+  border-bottom: 2px solid rgb(13, 168, 240);
+  text-align: center;
+  
 }
 .main-h {
   font-family: "Cormorant Garamond", serif;
@@ -419,8 +428,11 @@ ul li:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
 
 }
 
@@ -434,6 +446,45 @@ ul li:hover {
   margin: 50px;
   color: #ffffff;
   font-size: 50px;
+}
+/* phone */
+@media only screen and (max-width: 450px) {
+  
+  .main-sec {
+    background-color: rgba(12, 11, 11, 0.911);
+    padding: 0px;
+    text-align: center;
+    
+  }
+  .main-h {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkgoldenrod;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  
+  }
+  
+  .main-box {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  .main-box h1{
+    margin: 50px;
+    color: #ffffff;
+  
+  }
+  
+  .main-box .counters{
+    margin: 50px;
+    color: #ffffff;
+    font-size: 50px;
+  }
+
+
 }
 
 
