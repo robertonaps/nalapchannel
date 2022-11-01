@@ -688,15 +688,23 @@ padding: 2rem;
 
 /* Gamelist */
 .game-list {
-  background-color: #ece6e6;
+  background-color: #ffffff;
   padding: 5%;
 
 }
+
+
 .game-list .container {
 
   padding: 2rem;
+  background:black;
   
 }
+
+.listed-showgame .tittle-headgamelist{
+  color: darkorange;
+}
+
   
 
 
@@ -707,8 +715,7 @@ padding: 2rem;
   justify-content: center;
   justify-items: center;
   padding: 10%;
-  background: rgba(10, 10, 10, 0.774);
-  border-radius: 20px;
+  
   
   
 }
@@ -736,6 +743,66 @@ padding: 2rem;
   width: 100%;
   max-width: 400px;
   padding: 2rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .game-list {
+    background-color: #ffffff;
+    padding: 5%;
+  
+  }
+  .game-list .container {
+  
+    padding: 2rem;
+    background: black;
+   
+    
+  }
+  .listed-showgame .tittle-headgamelist{
+    color: darkorange;
+  }
+  
+    
+  
+  
+  .game-list .game-headbox {
+  
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10%;
+    
+    
+    
+  }
+  .game-headbox .game1 {
+    text-align: left;
+  }
+  
+  .game-headbox .game1 .tittle-game {
+  
+    color: #f4f4f4;
+    text-align: left;
+    margin: 10%;
+  
+  }
+  
+  .img-gameshow{
+  
+    text-align: center;
+  }
+  
+  
+  .img-gameshow .img-pic {
+    
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+  }
+
+
+  
 }
 
 
