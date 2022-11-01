@@ -641,7 +641,7 @@ padding: 2rem;
   color: #f4f4f4;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
 
   .playoff{
 
@@ -745,7 +745,7 @@ padding: 2rem;
   padding: 2rem;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
   .game-list {
     background-color: #ffffff;
     padding: 5%;
