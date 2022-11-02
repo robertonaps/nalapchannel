@@ -569,14 +569,13 @@ ul li:hover {
   background: black;
   padding: 5%;
 }
-.gameplayoff {
+.playoff .gameplayoff {
   display: flex;
   align-items: center;
   justify-content: center;
   justify-items: center;
-  padding: 10%;
-  background: rgba(10, 10, 10, 0.774);
-  border-radius: 20px;
+  background: rgba(134, 130, 130, 0.6);
+  border-radius: 10px;
 }
 
 .playoff .container {
@@ -610,16 +609,17 @@ ul li:hover {
   .playoff {
     background: black;
   }
-  .gameplayoff {
+  .playoff .gameplayoff {
     display: inline-block;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    padding: 10%;
+    background: rgba(0, 0, 0, 0.6);
+    
   }
 
   .gameplayoff .game-text {
-    text-align: left;
+    text-align: center;
   }
 
   .game-h {
