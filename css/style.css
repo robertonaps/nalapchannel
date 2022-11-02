@@ -438,7 +438,7 @@ ul li:hover {
 }
 
 .vid-box .video-show {
-  display: block;
+  display: flex;
   text-align: center;
 }
 
@@ -451,11 +451,12 @@ ul li:hover {
   padding: 10px 10px;
 }
 .vid-box .video-show .vid1 iframe {
-  width: 700px;
-  height: 400px;
+  width: 500px;
+  height: 250px;
+  row-gap: 10px;
 }
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 500px) {
   .vid-box {
     background: rgba(0, 0, 0, 0.6);
     padding: 2rem 2rem;
@@ -473,6 +474,7 @@ ul li:hover {
   .vid-box .video-show .vid1 iframe {
     width: 100%;
     max-width: 500px;
+    row-gap: 10px;
   }
 
   .vid-box .video-show .vid1 .h-vid {
@@ -480,6 +482,8 @@ ul li:hover {
     padding: 10px 10px;
   }
 }
+
+
 
 /* main.HTML */
 
@@ -644,13 +648,14 @@ ul li:hover {
 
 /* Gamelist */
 .game-list {
-  background-color: #ffffff;
+  background-color: rgba(12, 11, 11, 0.911);
   padding: 5%;
 }
 
 .game-list .container {
   padding: 2rem;
-  background: black;
+  background: rgb(2,0,36);
+background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
 }
 
 .listed-showgame .tittle-headgamelist {
@@ -670,7 +675,7 @@ ul li:hover {
 
 .game-headbox .game1 .tittle-game {
   color: #f4f4f4;
-  text-align: left;
+  text-align: center;
   margin: 10%;
 }
 
@@ -686,18 +691,22 @@ ul li:hover {
 }
 
 @media only screen and (max-width: 500px) {
+
   .game-list {
-    background-color: #ffffff;
+    background-color: rgba(12, 11, 11, 0.911);
     padding: 5%;
   }
+  
   .game-list .container {
     padding: 2rem;
-    background: black;
+    background: rgb(2,0,36);
+  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
   }
+  
   .listed-showgame .tittle-headgamelist {
     color: darkorange;
   }
-
+  
   .game-list .game-headbox {
     display: inline-block;
     align-items: center;
@@ -708,22 +717,27 @@ ul li:hover {
   .game-headbox .game1 {
     text-align: left;
   }
-
+  
   .game-headbox .game1 .tittle-game {
     color: #f4f4f4;
-    text-align: left;
+    text-align: center;
     margin: 10%;
   }
-
+  
   .img-gameshow {
+    position: relative;
     text-align: center;
   }
 
+  
+
+  
   .img-gameshow .img-pic {
     width: 100%;
     max-width: 400px;
     padding: 2rem;
   }
+  
 }
 
 /*Footer*/
