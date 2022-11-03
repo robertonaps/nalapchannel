@@ -465,11 +465,7 @@ ul li:hover {
   padding: 15px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  
-  
-
-  
+  gap: 10px; 
 }
 
 
@@ -514,7 +510,6 @@ iframe{
   max-width: 400px;
   height: inherit;
   border-radius: 10px;
-
 }
 
 
