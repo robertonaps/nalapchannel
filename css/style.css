@@ -413,7 +413,8 @@ ul li:hover {
 
 /* blogaq.html */
 
-.sec-one-blogaq {
+.blogaq {
+
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -424,64 +425,100 @@ ul li:hover {
 }
 
 .h-blog {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: rgba(231, 209, 9, 0.877);
+
   text-align: center;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 40px;
-  color: darkgoldenrod;
+  padding: 2rem;
 }
 
-.vid-box {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2rem 2rem;
-}
+/* popvideos */
 
-.vid-box .video-show {
-  display: flex;
+.displayvideo {
   text-align: center;
+ 
+
 }
 
-.vid-box .video-show .vid1 {
-  padding-top: 2rem;
+.video-categorylink {
+  text-align: center;
+  padding: 5px;
+
+  
 }
 
-.vid-box .video-show .vid1 .h-vid {
+.video-categorylink .popup {
+
+  text-decoration: none;
   color: #f4f4f4;
-  padding: 10px 10px;
+  font-size: 20px;
+  display: block;
+  padding-top: 1rem;
 }
-.vid-box .video-show .vid1 iframe {
-  width: 500px;
-  height: 250px;
-  row-gap: 10px;
+
+.video-categorylink .popup:hover:hover{
+  color: rgba(9, 142, 231, 0.877);
+  
+  
+
+}
+
+
+.h-tittle {
+  text-align: center;
+  padding: 10px;
+  color: rgba(231, 209, 9, 0.877);
+}
+
+h3 {
+  color: #f4f4f4;
+}
+iframe{
+
+  width: 100%;
+  
 }
 
 @media only screen and (max-width: 500px) {
-  .vid-box {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem 2rem;
-  }
 
-  .vid-box .video-show {
-    display: block;
+  .displayvideo {
     text-align: center;
   }
-
-  .vid-box .video-show .vid1 {
-    padding-top: 2rem;
+  
+  .video-categorylink {
+    text-align: center;
+    padding: 5px;
+  
+    
   }
-
-  .vid-box .video-show .vid1 iframe {
-    width: 100%;
-    max-width: 500px;
-    row-gap: 10px;
-  }
-
-  .vid-box .video-show .vid1 .h-vid {
+  
+  .video-categorylink .popup {
+  
+    text-decoration: none;
     color: #f4f4f4;
-    padding: 10px 10px;
+    font-size: 20px;
+    display: block;
   }
+  
+  .h-tittle {
+    text-align: center;
+    padding: 10px;
+    color: rgba(231, 209, 9, 0.877);
+  }
+  
+  h3 {
+    color: #f4f4f4;
+  }
+
+  iframe {
+
+    width: 100%;
+    max-width: 350px;
+  }
+  
 }
+
+
+
 
 
 
