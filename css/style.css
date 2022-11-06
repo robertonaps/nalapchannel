@@ -4,8 +4,7 @@
 }
 .navbar {
   /* background-color:rgba(59, 122, 238, 0.952); */
-  background: #243B55;
- 
+  background: #243b55;
 }
 .navbar-brand {
   color: #ebecec;
@@ -142,7 +141,7 @@ ul li:hover {
   }
 }
 
- @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .sec-cover {
     width: 100%;
     height: 500px;
@@ -295,9 +294,13 @@ ul li:hover {
 /*albumaq.html*/
 
 .album-aq {
-  background: rgb(2,0,36);
-  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-    padding: 5%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+  );
+  padding: 5%;
 }
 
 .h-alb {
@@ -317,8 +320,6 @@ ul li:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  
-
 }
 
 .img-alb .img-pic {
@@ -333,18 +334,11 @@ ul li:hover {
   transform: scale(0.8);
 }
 
-.img-alb .tittle-img-alb{
+.img-alb .tittle-img-alb {
   color: #fcb045;
-
-
-  
 }
-  
-
-
 
 @media only screen and (max-width: 480px) {
-  
   .img-alb {
     text-align: center;
     align-content: center;
@@ -353,14 +347,12 @@ ul li:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    
-  
   }
-  
+
   .img-alb .img-pic {
     width: 100%;
     max-width: 200px;
-    height:auto;
+    height: auto;
     padding: 2px;
     align-items: center;
     text-align: center;
@@ -435,9 +427,13 @@ ul li:hover {
 /* blogaq.html */
 
 .blogaq {
-  background: rgb(2,0,36);
-  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-    padding: 5%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+  );
+  padding: 5%;
 }
 
 .h-blog {
@@ -448,24 +444,32 @@ ul li:hover {
 }
 
 /* popvideos */
-.displayvideo {
-  text-align: center;
 
+h3 {
+  color: #f4f4f4;
+  padding: 10px;
+}
+iframe {
+  width: 100%;
 }
 
-
+.container .displayvideo {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+}
 
 .video-categorylink {
   text-align: center;
   padding: 15px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px; 
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
-
 .video-categorylink .popup {
-
   text-decoration: none;
   color: #f4f4f4;
   font-size: 20px;
@@ -473,35 +477,18 @@ ul li:hover {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
-
-
 }
 
-.video-categorylink .popup:hover{
+.video-categorylink .popup:hover {
   color: #fcb045;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
-  
-
+  border-image-slice: 1;
 }
 .h-tittle {
   text-align: center;
   padding: 10px;
   color: rgba(231, 209, 9, 0.877);
-}
-
-h3 {
-  color: #f4f4f4;
-  padding: 10px;
-}
-iframe{
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  width: 100%;
-  border-radius: 10px;
-  
 }
 
 .thumbnail {
@@ -512,67 +499,58 @@ iframe{
   border-top-right-radius: 10px;
 }
 
-
-
-
-@media only screen and (max-width: 500px) {
-
-.blogaq {
-
-  background: rgb(2,0,36);
-  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-}
-
-.h-blog {
-  color: rgba(231, 209, 9, 0.877);
-  text-align: center;
-  padding: 2rem;
-}
-
-  .displayvideo {
-    text-align: center; 
-    align-items: center;
-  justify-content: center;
-  justify-items: center;
-    
+@media only screen and (max-width: 480px) {
+  .blogaq {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      53deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 34, 77, 1) 99%
+    );
   }
-  
+
+  .h-blog {
+    color: rgba(231, 209, 9, 0.877);
+    text-align: center;
+    padding: 2rem;
+  }
+
+  h3 {
+    color: #f4f4f4;
+    padding: 10px;
+  }
+  iframe {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .container .displayvideo {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+
   .video-categorylink {
     text-align: center;
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    
   }
-  
+
   .video-categorylink .popup {
-  
+    display: block;
     text-decoration: none;
     color: #f4f4f4;
     font-size: 10px;
-    display: block;
   }
-  
+
   .h-tittle {
     text-align: center;
     padding: 10px;
     color: rgba(231, 209, 9, 0.877);
-  }
-  
-  h3 {
-    color: #f4f4f4;
-    
-  
-  }
-
-  iframe {
-
- width: 100%;
- max-width: 333px;
-text-align: center;
-border-radius: 10px;
-
   }
 
   .thumbnail {
@@ -581,13 +559,7 @@ border-radius: 10px;
     height: inherit;
     border-radius: 10px;
   }
-  
 }
-
-
-
-
-
 
 /* main.HTML */
 
@@ -637,7 +609,6 @@ border-radius: 10px;
   padding-bottom: 2rem;
 }
 
-
 @media only screen and (max-width: 1200px) {
   .main-sec {
     background-color: rgba(12, 11, 11, 0.911);
@@ -671,7 +642,6 @@ border-radius: 10px;
     font-size: 50px;
   }
 }
-
 
 @media only screen and (max-width: 760px) {
   .main-sec {
@@ -744,21 +714,24 @@ border-radius: 10px;
 /* section2 index.html */
 
 .playoff {
-  background: rgb(2,0,36);
-background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+  );
   padding: 5%;
 }
 .playoff .gameplayoff {
-  display:flex;
+  display: flex;
   gap: 2rem;
   align-content: center;
   justify-items: center;
   justify-content: center;
-  background: #141E30; 
-background: -webkit-linear-gradient(to left, #243B55, #141E30);  
-background: linear-gradient(to left, #243B55, #141E30); 
+  background: #141e30;
+  background: -webkit-linear-gradient(to left, #243b55, #141e30);
+  background: linear-gradient(to left, #243b55, #141e30);
   border-radius: 10px;
-
 }
 
 .gameplayoff .game-text {
@@ -772,7 +745,6 @@ background: linear-gradient(to left, #243B55, #141E30);
   font-size: 50px;
   padding-top: 50px;
   margin: 1rem;
-  
 }
 
 #gamechngingcontent {
@@ -782,33 +754,34 @@ background: linear-gradient(to left, #243B55, #141E30);
   font-weight: 20px;
 }
 #gamechngingcontent:after {
-  content:"";
+  content: "";
   animation: spin 5s linear infinite;
 }
 @keyframes spin {
-  0% { content:"ADVENTURE QUEST3D";}
-  50% { content:"CLASH OF CLANS";}
-  100% { content:"AVAKIN LIFE";}
-  
+  0% {
+    content: "ADVENTURE QUEST3D";
+  }
+  50% {
+    content: "CLASH OF CLANS";
+  }
+  100% {
+    content: "AVAKIN LIFE";
+  }
 }
 
-
-.game-imges { 
+.game-imges {
   text-align: center;
 }
- 
-  
-
 
 .game-imges .pic-info {
   width: 100%;
   max-width: 435px;
- height: inherit;
- border-top-left-radius: 50%;
- border-top-right-radius: 50%;
- background:rgba(0, 0, 0, 0.6);
- border-bottom: 5px solid transparent;
-border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  height: inherit;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 5px solid transparent;
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   border-image-slice: 1;
 }
 
@@ -818,19 +791,19 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   padding-top: 1rem;
 }
 @media only screen and (max-width: 1200px) {
-
   .playoff {
-    background: rgb(2,0,36);
-    background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-    
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      53deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 34, 77, 1) 99%
+    );
   }
-   .playoff .container .gameplayoff {
+  .playoff .container .gameplayoff {
     display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    
-    
   }
 
   .gameplayoff .game-text {
@@ -843,29 +816,27 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     padding: 2rem;
     font-size: 40px;
   }
-  
-  
+
   .game-p {
     text-align: center;
     color: #f4f4f4;
   }
-  
 }
 
 @media only screen and (max-width: 760px) {
-
   .playoff {
-    background: rgb(2,0,36);
-    background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-    
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      53deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 34, 77, 1) 99%
+    );
   }
-   .playoff .container .gameplayoff {
+  .playoff .container .gameplayoff {
     display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    
-    
   }
 
   .gameplayoff .game-text {
@@ -878,28 +849,27 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     padding: 2rem;
     font-size: 40px;
   }
-  
-  
+
   .game-p {
     text-align: center;
     color: #f4f4f4;
   }
-  
 }
 
 @media only screen and (max-width: 480px) {
   .playoff {
-    background: rgb(2,0,36);
-    background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-    
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      53deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 34, 77, 1) 99%
+    );
   }
   .playoff .gameplayoff {
     display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    
-    
   }
 
   .gameplayoff .game-text {
@@ -912,25 +882,25 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     padding: 2rem;
     font-size: 40px;
   }
-  
-  
+
   .game-p {
     text-align: center;
     color: #f4f4f4;
   }
 }
 
-
-
 /* Gamelist */
 .game-list {
-  background: rgb(2,0,36);
-background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+  );
   padding: 5%;
 }
 
 .container .gamelisttittle {
-
   color: #fcb045;
   text-align: center;
   padding: 2rem;
@@ -941,11 +911,9 @@ background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   border-radius: 20px;
-
 }
 
 .game-box .gameitem {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -953,67 +921,59 @@ background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
   padding: 1rem;
   gap: 1rem;
   border-bottom: 5px solid transparent;
-border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   border-image-slice: 1;
   background: rgba(0, 0, 0, 0.6);
   margin: 15px;
-  border-radius: 20px ;
+  border-radius: 20px;
 }
-.gameitem .gametittleitem{
+.gameitem .gametittleitem {
   text-align: center;
   color: #f4f4f4;
-  
 }
 
-.gameitem .gameimageitem{
-
-width: 100%;
-max-width: 200px;
-
+.gameitem .gameimageitem {
+  width: 100%;
+  max-width: 200px;
 }
 
-.gameitem .linkgame{
+.gameitem .linkgame {
   text-decoration: none;
   color: #f4f4f4;
 }
 
-.gameitem .linkgame:hover{
+.gameitem .linkgame:hover {
   color: #fcb045;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
+  border-image-slice: 1;
 }
 
-
-
-
 @media only screen and (max-width: 500px) {
-
   .game-list {
-    background: rgb(2,0,36);
-  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      53deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(7, 34, 77, 1) 99%
+    );
     padding: 5%;
   }
-  
+
   .container .gamelisttittle {
-  
     color: #fcb045;
     text-align: center;
     padding: 2rem;
-    
   }
-  
+
   .game-box {
-    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     border-radius: 20px;
-  
   }
-  
+
   .game-box .gameitem {
-  
     display: block;
     align-items: center;
     justify-content: center;
@@ -1021,36 +981,27 @@ max-width: 200px;
     padding: 1rem;
     gap: 1rem;
     border-bottom: 5px solid transparent;
-  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
     background: rgba(0, 0, 0, 0.6);
     margin: 15px;
     border-radius: 20px;
   }
-  .gameitem .gametittleitem{
+  .gameitem .gametittleitem {
     text-align: center;
     color: #f4f4f4;
-    
-  }
-  
-  .gameitem .gameimageitem{
-  width: 100%;
-  max-width: 200px;
-
-  
   }
 
-  .gameitem .imgcenter{
+  .gameitem .gameimageitem {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .gameitem .imgcenter {
     text-align: center;
     padding: 1rem;
   }
-  
 }
-
-
-
-
-
 
 /*Footer*/
 
@@ -1077,7 +1028,6 @@ footer {
 .privacy .privacy-page:hover {
   border-bottom: 2px solid rgb(90, 197, 230);
 }
-  
 
 @media only screen and (max-width: 480px) {
   footer {
