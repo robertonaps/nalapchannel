@@ -448,10 +448,9 @@ ul li:hover {
 }
 
 /* popvideos */
-
 .displayvideo {
   text-align: center;
-  
+
 }
 
 
@@ -494,12 +493,14 @@ ul li:hover {
 
 h3 {
   color: #f4f4f4;
-  padding: .095px;
+  padding: 10px;
 }
 iframe{
-
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
   
 }
 
@@ -530,6 +531,9 @@ iframe{
 
   .displayvideo {
     text-align: center; 
+    align-items: center;
+  justify-content: center;
+  justify-items: center;
     
   }
   
@@ -558,16 +562,16 @@ iframe{
   
   h3 {
     color: #f4f4f4;
-    padding: .095px;
+    
   
   }
 
   iframe {
 
-    width: 100%;
-    max-width: 345px;
-    text-align: center;
-    border-radius: 10px;
+ width: 100%;
+max-width: 345px;
+text-align: center;
+border-radius: 10px;
 
   }
 
@@ -983,7 +987,7 @@ max-width: 200px;
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
 
   .game-list {
     background: rgb(2,0,36);
