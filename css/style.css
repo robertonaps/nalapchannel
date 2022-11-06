@@ -472,7 +472,7 @@ iframe {
 .video-categorylink .popup {
   text-decoration: none;
   color: #f4f4f4;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -521,6 +521,23 @@ iframe {
     justify-items: center;
     align-content: center;
   }
+
+  .video-categorylink .popup {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 10px;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .video-categorylink .popup:hover {
+    color: #fcb045;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
+  }
   
 }
 
@@ -546,6 +563,23 @@ iframe {
     justify-content: center;
     justify-items: center;
     align-content: center;
+  }
+
+  .video-categorylink .popup {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 8.5px;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .video-categorylink .popup:hover {
+    color: #fcb045;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
   }
 
   
