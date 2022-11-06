@@ -633,7 +633,77 @@ iframe{
 .container {
   padding-bottom: 2rem;
 }
-/* phone */
+
+
+@media only screen and (max-width: 1200px) {
+  .main-sec {
+    background-color: rgba(12, 11, 11, 0.911);
+    padding: 0px;
+    text-align: center;
+    padding: 5%;
+  }
+  .main-h {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkgoldenrod;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .main-box {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .main-box h1 {
+    margin: 50px;
+    color: #ffffff;
+  }
+
+  .main-box .counters {
+    margin: 50px;
+    color: #ffffff;
+    font-size: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .main-sec {
+    background-color: rgba(12, 11, 11, 0.911);
+    padding: 0px;
+    text-align: center;
+    padding: 5%;
+  }
+  .main-h {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    text-align: center;
+    color: darkgoldenrod;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .main-box {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .main-box h1 {
+    margin: 50px;
+    color: #ffffff;
+  }
+
+  .main-box .counters {
+    margin: 50px;
+    color: #ffffff;
+    font-size: 50px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .main-sec {
     background-color: rgba(12, 11, 11, 0.911);
@@ -742,14 +812,14 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   color: #f4f4f4;
   padding-top: 1rem;
 }
+@media only screen and (max-width: 1200px) {
 
-@media only screen and (max-width: 480px) {
   .playoff {
     background: rgb(2,0,36);
     background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
     
   }
-  .playoff .gameplayoff {
+   .playoff .container .gameplayoff {
     display: block;
     align-items: center;
     justify-content: center;
@@ -774,6 +844,7 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     text-align: center;
     color: #f4f4f4;
   }
+  
 }
 
 @media only screen and (max-width: 760px) {
@@ -811,6 +882,41 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   
 }
 
+@media only screen and (max-width: 480px) {
+  .playoff {
+    background: rgb(2,0,36);
+    background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+    
+  }
+  .playoff .gameplayoff {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    
+    
+  }
+
+  .gameplayoff .game-text {
+    text-align: center;
+  }
+
+  .game-h {
+    text-align: center;
+    color: rgba(250, 250, 248, 0.877);
+    padding: 2rem;
+    font-size: 40px;
+  }
+  
+  
+  .game-p {
+    text-align: center;
+    color: #f4f4f4;
+  }
+}
+
+
+
 /* Gamelist */
 .game-list {
   background: rgb(2,0,36);
@@ -819,33 +925,35 @@ background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
 }
 
 .game-list .container {
+background-color: rgba(0, 0, 0, 0.6);
   padding: 2rem;
-  background: rgb(2,0,36);
-background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
 }
 
-.listed-showgame .tittle-headgamelist {
+ .tittle-headgamelist {
   color: darkorange;
+  padding: 2rem;
+  text-align: center;
 }
 
 .game-list .game-headbox {
+  text-align: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
-  padding: 10%;
+  
+  
 }
 .game-headbox .game1 {
-  text-align: center;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   justify-items: center;
   background: #243B55;
   width: 100%;
-  max-width: 600px;
   border-bottom: 5px solid transparent;
 border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   border-image-slice: 1;
@@ -866,84 +974,24 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
   margin: 20px;
 }
 
-@media only screen and (max-width: 760px){
-
-  .game-list {
-    padding: 2rem;
-    background: rgb(2,0,36);
-  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-  padding: 5%;
-  }
-  
-  .game-list .container {
-
-    padding: 20px;
-    
-  }
-  
-  .listed-showgame .tittle-headgamelist {
-    color: darkorange;
-  }
-
-  .game-list .game-headbox {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 10%;
-  }
-  .game-headbox .game1 {
-    text-align: center;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    background: #243B55;
-    width: 100%;
-    max-width: 600px;
-    border-bottom: 5px solid transparent;
-  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
-  }
-  
-  .game-headbox .game1 .tittle-game {
-    color: #f4f4f4;
-    text-align: center;
-    align-items: center;
-    margin: 20px;
-    font-size: 15x;
-  
-    
-  }
-  
-  .game-headbox .game1 .game-image{
-    max-width: 150px;
-    margin: 20px;
-  }
-  
-
-
-}
 
 @media only screen and (max-width: 480px) {
 
   .game-list {
-    padding: 2rem;
     background: rgb(2,0,36);
   background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
-  padding: 5%;
+    padding: 5%;
   }
   
   .game-list .container {
-
-    padding: 20px;
-    
+  background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
   }
   
-  .listed-showgame .tittle-headgamelist {
+   .tittle-headgamelist {
     color: darkorange;
+    padding: 2rem;
+    text-align: center;
   }
 
   .game-list .game-headbox {
@@ -953,17 +1001,19 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     align-items: center;
     justify-content: center;
     justify-items: center;
-    padding: 10%;
+    width: 100%;
+    max-width: 500px;
+    
   }
   .game-headbox .game1 {
-    text-align: center;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     justify-items: center;
     background: #243B55;
+    max-width: 500px;
     width: 100%;
-    max-width: 600px;
     border-bottom: 5px solid transparent;
   border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
@@ -973,17 +1023,12 @@ border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     color: #f4f4f4;
     text-align: center;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
     font-size: 15x;
   
     
   }
-  
-  .game-headbox .game1 .game-image{
-    max-width: 150px;
-    margin: 20px;
-  }
-  
+
 }
 
 
@@ -1014,6 +1059,7 @@ footer {
 .privacy .privacy-page:hover {
   border-bottom: 2px solid rgb(90, 197, 230);
 }
+  
 
 @media only screen and (max-width: 480px) {
   footer {
