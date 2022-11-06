@@ -295,13 +295,9 @@ ul li:hover {
 /*albumaq.html*/
 
 .album-aq {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(11, 25, 130, 1) 89%,
-    rgba(38, 0, 255, 1) 100%
-  );
+  background: rgb(2,0,36);
+  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+    padding: 5%;
 }
 
 .h-alb {
@@ -337,7 +333,12 @@ ul li:hover {
   transform: scale(0.8);
 }
 
+.img-alb .tittle-img-alb{
+  color: #fcb045;
 
+
+  
+}
   
 
 
@@ -434,14 +435,9 @@ ul li:hover {
 /* blogaq.html */
 
 .blogaq {
-
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(11, 25, 130, 1) 89%,
-    rgba(38, 0, 255, 1) 100%
-  );
+  background: rgb(2,0,36);
+  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+    padding: 5%;
 }
 
 .h-blog {
@@ -476,10 +472,17 @@ ul li:hover {
   font-size: 20px;
   display: block;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+
+
 }
 
 .video-categorylink .popup:hover{
-  color: rgba(9, 142, 231, 0.877);
+  color: #fcb045;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
   
 
 }
@@ -504,21 +507,20 @@ iframe{
   width: 100%;
   max-width: 400px;
   height: inherit;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
+
+
 
 
 @media only screen and (max-width: 480px) {
 
 .blogaq {
 
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(11, 25, 130, 1) 89%,
-    rgba(38, 0, 255, 1) 100%
-  );
+  background: rgb(2,0,36);
+  background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
+    padding: 5%;
 }
 
 .h-blog {
@@ -760,14 +762,16 @@ background: linear-gradient(to left, #243B55, #141E30);
 
 .gameplayoff .game-text {
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .game-h {
   color: rgba(247, 247, 247, 0.877);
   text-align: center;
-  font-size: 80px;
-  padding-top: 80px;
+  font-size: 50px;
+  padding-top: 50px;
+  margin: 1rem;
+  
 }
 
 #gamechngingcontent {
