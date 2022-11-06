@@ -498,32 +498,48 @@ iframe {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+/* tablet-laptop */
+@media only screen and (max-width: 768px) {
 
-@media only screen and (max-width: 480px) {
-  .blogaq {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      53deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(7, 34, 77, 1) 99%
-    );
-  }
-
-  .h-blog {
-    color: rgba(231, 209, 9, 0.877);
+  .video-categorylink {
     text-align: center;
-    padding: 2rem;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 
-  h3 {
-    color: #f4f4f4;
-    padding: 10px;
-  }
   iframe {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+  }
+  
+  .container .displayvideo {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+  }
+  
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) { 
+
+  .video-categorylink {
+    text-align: center;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
+  iframe {
+    width: 100%;
+    max-width: 300px;
+  }
+  
   .container .displayvideo {
     display: block;
     text-align: center;
@@ -532,34 +548,12 @@ iframe {
     align-content: center;
   }
 
-  .video-categorylink {
-    text-align: center;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
-  .video-categorylink .popup {
-    display: block;
-    text-decoration: none;
-    color: #f4f4f4;
-    font-size: 10px;
-  }
-
-  .h-tittle {
-    text-align: center;
-    padding: 10px;
-    color: rgba(231, 209, 9, 0.877);
-  }
-
-  .thumbnail {
-    width: 100%;
-    max-width: 225px;
-    height: inherit;
-    border-radius: 10px;
-  }
+  
 }
+
+
+
+
 
 /* main.HTML */
 
