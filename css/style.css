@@ -932,10 +932,10 @@ background: linear-gradient(53deg, rgba(2,0,36,1) 0%, rgba(7,34,77,1) 99%);
 }
 
 .game-box {
-  background-color: rgba(0, 0, 0, 0.6);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  border-radius: 20px;
 
 }
 
@@ -967,6 +967,17 @@ max-width: 200px;
 
 }
 
+.gameitem .linkgame{
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.gameitem .linkgame:hover{
+  color: #fcb045;
+}
+
+
+
 @media only screen and (max-width: 480px) {
 
   .game-list {
@@ -983,16 +994,17 @@ max-width: 200px;
   }
   
   .game-box {
-    background-color: rgba(0, 0, 0, 0.6);
+    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
+    border-radius: 20px;
   
   }
   
   .game-box .gameitem {
   
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1012,10 +1024,15 @@ max-width: 200px;
   }
   
   .gameitem .gameimageitem{
-    
   width: 100%;
   max-width: 200px;
+
   
+  }
+
+  .gameitem .imgcenter{
+    text-align: center;
+    padding: 1rem;
   }
   
 }
