@@ -974,7 +974,11 @@ max-width: 200px;
 
 .gameitem .linkgame:hover{
   color: #fcb045;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
 }
+
 
 
 
@@ -991,6 +995,7 @@ max-width: 200px;
     color: #fcb045;
     text-align: center;
     padding: 2rem;
+    
   }
   
   .game-box {
