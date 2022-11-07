@@ -735,12 +735,7 @@ iframe {
 }
 
 .main-box .sub{
-
-  
-  border-bottom: 5px solid transparent;
-    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
-    padding: 1rem;
+    padding: 16px;
 
 }
 
@@ -748,6 +743,9 @@ iframe {
 .main-box .counters {
   color: #fcb045;
   font-size: 50px;
+  border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
   padding: 1rem;
   
 }
@@ -785,17 +783,15 @@ iframe {
   }
 
   .main-box .sub{
-
-    
-    border-bottom: 5px solid transparent;
-      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-      border-image-slice: 1;
       padding: 1rem;
   
   }
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -828,11 +824,6 @@ iframe {
   }
 
   .main-box .sub{
-
-    
-    border-bottom: 5px solid transparent;
-      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-      border-image-slice: 1;
       padding: 1rem;
   
   }
@@ -840,6 +831,9 @@ iframe {
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -872,11 +866,6 @@ iframe {
   }
 
   .main-box .sub{
-
-    
-    border-bottom: 5px solid transparent;
-      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-      border-image-slice: 1;
       padding: 1rem;
   
   }
@@ -884,6 +873,9 @@ iframe {
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -919,16 +911,23 @@ iframe {
 .game-h {
   color: rgba(247, 247, 247, 0.877);
   text-align: center;
-  font-size: 50px;
-  padding-top: 50px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+ font-size: 50px;
+  padding: auto;
   margin: 1rem;
 }
 
+.gameanimtext{
+  font-family: 'Tiro Telugu', serif;
+}
+
 #gamechngingcontent {
-  color: rgba(231, 209, 9, 0.877);
-  font-size: 20px;
-  text-align: left;
-  font-weight: 20px;
+   color: rgba(207, 188, 9, 0.966);
+  text-shadow: -4px 2px 4px rgba(0,0,0,0.71);
+  font-size: 30px;
+  text-align: center;
+  
 }
 #gamechngingcontent:after {
   content: "";
@@ -938,12 +937,16 @@ iframe {
   0% {
     content: "ADVENTURE QUEST3D";
   }
-  50% {
+  25% {
     content: "CLASH OF CLANS";
   }
-  100% {
+  50% {
     content: "AVAKIN LIFE";
   }
+  100% {
+    content: "WALK ONLINE MOBILE";
+  }
+
 }
 
 .game-imges {
@@ -966,7 +969,8 @@ iframe {
 .game-p {
   text-align: center;
   color: #f4f4f4;
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
   padding-top: 1rem;
 }
 @media only screen and (max-width: 1200px) {
@@ -1080,9 +1084,21 @@ iframe {
 }
 
 .container .gamelisttittle {
-  color: #fcb045;
-  text-align: center;
+  color:#f4f4f4;
+  font-family: 'Poppins', sans-serif;
+ font-weight: 700;
+  text-align: left;
+  font-size: 50px;
   padding: 2rem;
+}
+
+.container .gamelistpar {
+  color:#f4f4f4;
+  font-family: 'Poppins', sans-serif;
+ font-weight: 300;
+ font-size: 30px;
+  text-align: left;
+
 }
 
 .game-box {
@@ -1131,7 +1147,7 @@ iframe {
 @media only screen and (max-width: 768px) {
   
   .container .gamelisttittle {
-    color: #fcb045;
+    color:#f4f4f4;
     text-align: center;
     padding: 2rem;
   }
@@ -1177,7 +1193,7 @@ iframe {
 @media only screen and (max-width: 480px) {
   
   .container .gamelisttittle {
-    color: #fcb045;
+    color:#f4f4f4;
     text-align: center;
     padding: 2rem;
   }
