@@ -180,7 +180,12 @@ ul li:hover {
 /* SECTION 2 */
 
 .sec-two {
-  background-color: rgba(12, 11, 11, 0.911);
+
+  background: #141e30;
+  background: -webkit-linear-gradient(to left, #243b55, #141e30);
+  background: linear-gradient(to left, #243b55, #141e30);
+  
+
 }
 
 .sz_sec {
@@ -228,11 +233,15 @@ ul li:hover {
   height: 50px;
   padding: auto;
   margin: 5px;
-  border-radius: 20px;
-  background-color: rgba(231, 209, 9, 0.877);
+  color: #f4f4f4;
+  background: rgba(0, 0, 0, 0.6);
+  
 }
 .sec-two .vert-cent .bbtn-download:hover {
-  background-color: rgba(22, 109, 223, 0.842);
+  color: #fcb045;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
 }
 
 .sec-two .cover-img-game .vert-cent .bbtn-download a {
@@ -244,8 +253,19 @@ ul li:hover {
 
 .vert-cent a {
   text-decoration: none;
-  color: #010102f3;
+  color:#f4f4f4;
 }
+
+.vert-cent a:hover{
+  text-decoration: none;
+  color: #fcb045;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
+  
+}
+
+
 
 /* section-thre-about-media-home */
 
@@ -629,7 +649,10 @@ iframe {
 
 .main-box .counters {
   margin: 50px;
-  color: #ffffff;
+  color: #fcb045;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
   font-size: 50px;
 }
 
@@ -666,7 +689,10 @@ iframe {
 
   .main-box .counters {
     margin: 50px;
-    color: #ffffff;
+    color: #fcb045;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -700,7 +726,10 @@ iframe {
 
   .main-box .counters {
     margin: 50px;
-    color: #ffffff;
+    color: #fcb045;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -734,7 +763,10 @@ iframe {
 
   .main-box .counters {
     margin: 50px;
-    color: #ffffff;
+    color: #fcb045;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
     font-size: 50px;
   }
 }
