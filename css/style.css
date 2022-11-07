@@ -271,23 +271,17 @@ ul li:hover {
 
 .sec-about-media {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(11, 25, 130, 1) 89%,
-    rgba(38, 0, 255, 1) 100%
-  );
-  border-top: 2px solid rgb(13, 168, 240);
-  border-bottom: 2px solid rgb(13, 168, 240);
+  
 }
 
 .about-h .h-about-media {
   color: #f4f4f4;
+  text-align: center;
   padding-top: 2rem;
 }
 
 .about-h .p-about-media {
-  text-align: left;
+  text-align: center;
   color: #f4f4f4;
 }
 
@@ -355,7 +349,71 @@ ul li:hover {
 }
 
 .img-alb .tittle-img-alb {
-  color: #fcb045;
+  color:#f4f4f4;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .img-alb {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .img-alb .img-pic {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 2px;
+    align-items: center;
+    text-align: center;
+    margin: 2px;
+    border-radius: 10px;
+  }
+
+  .img-alb .tittle-img-alb {
+    font-size: 12px;
+    color:#f4f4f4;
+  }
+
+
+.full-images {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.full-images .full-pic {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.full-images .closebtn {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.full-images .closebtn:hover {
+  color: rgba(224, 7, 7, 0.925);
+}
+  
 }
 
 @media only screen and (max-width: 480px) {
@@ -379,7 +437,12 @@ ul li:hover {
     margin: 2px;
     border-radius: 10px;
   }
-}
+
+  .img-alb .tittle-img-alb {
+    font-size: 10px;
+    color:#f4f4f4;
+  }
+
 
 .full-images {
   width: 100%;
@@ -414,34 +477,6 @@ ul li:hover {
   color: rgba(224, 7, 7, 0.925);
 }
 
-@media only screen and (max-width: 500px) {
-  .full-images {
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.6);
-    top: 0;
-    left: 0;
-    position: fixed;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-  }
-
-  .full-images .full-pic {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
-  }
-
-  .full-images .closebtn {
-    position: absolute;
-    top: 15%;
-    right: 5%;
-    font-size: 30px;
-    color: #ffffff;
-    cursor: pointer;
-  }
 }
 
 /* blogaq.html */
@@ -612,12 +647,11 @@ iframe {
 /* main.HTML */
 
 .main-sec {
-  background: rgb(3, 26, 113);
+  background: rgb(2, 0, 36);
   background: linear-gradient(
-    90deg,
-    rgba(3, 26, 113, 1) 100%,
-    rgba(11, 15, 130, 1) 100%,
-    rgba(38, 0, 255, 1) 100%
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
   );
   padding: 5%;
 }
@@ -637,27 +671,35 @@ iframe {
   justify-items: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background: rgba(0, 0, 0, 0.6);
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+
 }
 
 .main-box h1 {
-  margin: 50px;
+  margin: 4rem;
   color: #ffffff;
 }
 
-.main-box .counters {
-  margin: 50px;
-  color: #fcb045;
-    border-bottom: 5px solid transparent;
+.main-box .sub{
+
+  
+  border-bottom: 5px solid transparent;
     border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
+    padding: 1rem;
+
+}
+
+
+.main-box .counters {
+  color: #fcb045;
   font-size: 50px;
+  padding: 1rem;
+  
 }
 
 .container {
   padding-bottom: 2rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -687,12 +729,18 @@ iframe {
     color: #ffffff;
   }
 
+  .main-box .sub{
+
+    
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
+      padding: 1rem;
+  
+  }
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
-    border-bottom: 5px solid transparent;
-    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -724,12 +772,19 @@ iframe {
     color: #ffffff;
   }
 
+  .main-box .sub{
+
+    
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
+      padding: 1rem;
+  
+  }
+
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
-    border-bottom: 5px solid transparent;
-    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -761,12 +816,19 @@ iframe {
     color: #ffffff;
   }
 
+  .main-box .sub{
+
+    
+    border-bottom: 5px solid transparent;
+      border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+      border-image-slice: 1;
+      padding: 1rem;
+  
+  }
+
   .main-box .counters {
     margin: 50px;
     color: #fcb045;
-    border-bottom: 5px solid transparent;
-    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
-    border-image-slice: 1;
     font-size: 50px;
   }
 }
@@ -1009,17 +1071,54 @@ iframe {
   border-image-slice: 1;
 }
 
-@media only screen and (max-width: 500px) {
-  .game-list {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      53deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(7, 34, 77, 1) 99%
-    );
-    padding: 5%;
+@media only screen and (max-width: 768px) {
+  
+  .container .gamelisttittle {
+    color: #fcb045;
+    text-align: center;
+    padding: 2rem;
   }
 
+  .game-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-radius: 20px;
+  }
+
+  .game-box .gameitem {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+    border-image-slice: 1;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 15px;
+    border-radius: 20px;
+  }
+  .gameitem .gametittleitem {
+    text-align: center;
+    color: #f4f4f4;
+  }
+
+  .gameitem .gameimageitem {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .gameitem .imgcenter {
+    text-align: center;
+    padding: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  
   .container .gamelisttittle {
     color: #fcb045;
     text-align: center;
