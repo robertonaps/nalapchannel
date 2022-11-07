@@ -321,7 +321,7 @@ ul li:hover {
   font-family: "Cormorant Garamond", serif;
   font-size: 40px;
   text-align: center;
-  color: darkgoldenrod;
+  color:#fcb045;
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
@@ -387,6 +387,17 @@ ul li:hover {
 
 @media only screen and (max-width: 760px) {
 
+  .h-alb {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    text-align: center;
+    color:#fcb045;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+
+
   .img-alb {
     text-align: center;
     align-content: center;
@@ -450,6 +461,17 @@ ul li:hover {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .h-alb {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    text-align: center;
+    color:#fcb045;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+
   .img-alb {
     text-align: center;
     align-content: center;
@@ -879,7 +901,7 @@ iframe {
 }
 .playoff .gameplayoff {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
   align-content: center;
   justify-items: center;
   justify-content: center;
@@ -926,11 +948,12 @@ iframe {
 
 .game-imges {
   text-align: center;
+  
 }
 
 .game-imges .pic-info {
   width: 100%;
-  max-width: 435px;
+  max-width: 300px;
   height: inherit;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -943,6 +966,7 @@ iframe {
 .game-p {
   text-align: center;
   color: #f4f4f4;
+  font-size: 20px;
   padding-top: 1rem;
 }
 @media only screen and (max-width: 1200px) {
