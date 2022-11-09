@@ -9,9 +9,15 @@
   color: #ebecec;
   font-family: "Aclonica", sans-serif;
   font-weight: bold;
+  margin-left: 32px;
+  
 }
 
-.navbar-brand img {
+
+
+
+
+.navbar-brand .logo {
   padding: 0px;
   margin: 0px;
   width: 70px;
@@ -30,7 +36,6 @@ ul {
 }
 
 .dropdown-menu {
-  
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -41,7 +46,7 @@ ul {
 
 .dropdown-menu .dropdown-item:hover {
   color: #f4f4f4;
-  background-color: rgba(29, 101, 218, 0.575);
+  background-color: rgba(0, 0, 0, 0.6);
   border-bottom: 2px solid transparent;
     border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
