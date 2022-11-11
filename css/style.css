@@ -1878,7 +1878,7 @@ footer {
 }
 
 .foter-algn {
-  padding-top: 2rem;
+  padding: 2rem;
   margin: auto;
   text-align: center;
   color: #f4f4f4;
@@ -1898,6 +1898,60 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+  footer {
+    background-color: black;
+  }
+
+  .foter-algn {
+    padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    color: #f4f4f4;
+  }
+
+  .privacy {
+    padding-bottom: 20px;
+  }
+
+  .privacy .privacy-page {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 10px;
+  }
+  .privacy .privacy-page:hover {
+    border-bottom: 2px solid rgb(90, 197, 230);
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  footer {
+    background-color: black;
+  }
+
+  .foter-algn {
+    padding-top: 2rem;
+    margin: auto;
+    text-align: center;
+    color: #f4f4f4;
+  }
+
+  .privacy {
+    padding-bottom: 20px;
+  }
+
+  .privacy .privacy-page {
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 10px;
+  }
+  .privacy .privacy-page:hover {
+    border-bottom: 2px solid rgb(90, 197, 230);
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
   footer {
     background-color: black;
   }
