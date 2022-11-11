@@ -875,6 +875,7 @@ iframe {
 
 @media only screen and (max-width: 760px) {
   .main-sec {
+    display: block;
     background-color: rgba(12, 11, 11, 0.911);
     padding: 0px;
     text-align: center;
@@ -917,6 +918,7 @@ iframe {
 
 @media only screen and (max-width: 480px) {
   .main-sec {
+    display: block;
     background-color: rgba(12, 11, 11, 0.911);
     padding: 0px;
     text-align: center;
@@ -1052,6 +1054,7 @@ iframe {
 }
 @media only screen and (max-width: 1200px) {
   .playoff {
+
     background: rgb(2, 0, 36);
     background: linear-gradient(
       53deg,
@@ -1060,7 +1063,7 @@ iframe {
     );
   }
   .playoff .container .gameplayoff {
-  
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1093,7 +1096,7 @@ iframe {
     );
   }
   .playoff .container .gameplayoff {
-  
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1126,7 +1129,7 @@ iframe {
     );
   }
   .playoff .gameplayoff {
-  
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1253,7 +1256,7 @@ iframe {
   }
 
   .game-box .gameitem {
-  
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1300,7 +1303,7 @@ iframe {
   }
 
   .game-box .gameitem {
-  
+    display: block;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1347,7 +1350,6 @@ iframe {
   background: #141e30;
   background: -webkit-linear-gradient(to left, #243b55, #141e30);
   background: linear-gradient(to left, #243b55, #141e30);
-  
   padding: 5%;
 
 
@@ -1966,7 +1968,7 @@ text-decoration: none;
   }
   
   .backgroundimgavakin .coveravakin {
-    width: 100%;
+   width: 100%;
   max-width: 400px;
   height: auto;
   padding-bottom: 16px;
