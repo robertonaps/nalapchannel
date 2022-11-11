@@ -496,11 +496,12 @@ iframe {
 }
 
 .container .displayvideo {
-  display: block;
+
   text-align: center;
   justify-content: center;
   justify-items: center;
   align-content: center;
+  
 }
 
 .video-categorylink-coc {
@@ -515,7 +516,7 @@ iframe {
   text-decoration: none;
   color: #f4f4f4;
   font-size: 15px;
-  display: block;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
@@ -557,7 +558,7 @@ iframe {
   }
   
   .container .displayvideo {
-    display: block;
+  
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -568,7 +569,7 @@ iframe {
     text-decoration: none;
     color: #f4f4f4;
     font-size: 10px;
-    display: block;
+  
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -600,7 +601,7 @@ iframe {
   }
   
   .container .displayvideo {
-    display: block;
+  
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -611,7 +612,7 @@ iframe {
     text-decoration: none;
     color: #f4f4f4;
     font-size: 8.5px;
-    display: block;
+  
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -639,7 +640,7 @@ iframe {
 }
 
 .container .displayvideo {
-  display: block;
+
   text-align: center;
   justify-content: center;
   justify-items: center;
@@ -658,7 +659,7 @@ iframe {
   text-decoration: none;
   color: #f4f4f4;
   font-size: 15px;
-  display: block;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
@@ -700,7 +701,7 @@ iframe {
   }
   
   .container .displayvideo {
-    display: block;
+  
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -711,7 +712,7 @@ iframe {
     text-decoration: none;
     color: #f4f4f4;
     font-size: 10px;
-    display: block;
+  
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -743,7 +744,7 @@ iframe {
   }
   
   .container .displayvideo {
-    display: block;
+  
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -754,7 +755,7 @@ iframe {
     text-decoration: none;
     color: #f4f4f4;
     font-size: 8.5px;
-    display: block;
+  
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -1059,7 +1060,7 @@ iframe {
     );
   }
   .playoff .container .gameplayoff {
-    display: block;
+  
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1092,7 +1093,7 @@ iframe {
     );
   }
   .playoff .container .gameplayoff {
-    display: block;
+  
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1125,7 +1126,7 @@ iframe {
     );
   }
   .playoff .gameplayoff {
-    display: block;
+  
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1252,7 +1253,7 @@ iframe {
   }
 
   .game-box .gameitem {
-    display: block;
+  
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -1299,7 +1300,7 @@ iframe {
   }
 
   .game-box .gameitem {
-    display: block;
+  
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -2019,6 +2020,187 @@ text-decoration: none;
 }
 
 
+/* footer-sep */
+.footer-background {
+
+  background-color: #020202;
+  width: 100%;
+  height: auto;
+}
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-sep {
+  display: grid;
+  grid-template-columns: repeat (3 , 1fr);
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+
+.Social-media {
+  color: #f4f4f4;
+  margin: 50px;
+  
+
+}
+
+.Social-media .footer-sep-h {
+  color: #fcb045
+  
+
+}
+
+.Social-media i{
+  color: #f4f4f4;
+  margin: 5px;
+}
+
+.Social-media i:hover{
+  color: rgba(231, 209, 9, 0.877);
+  margin: 5px;
+}
+
+.footer-sep .Support{
+  
+  padding: 2rem;
+  margin: 50px;
+}
+
+.footer-sep .Support .a-list{
+  display: block;
+  text-decoration: none;
+  color: #f4f4f4;
+  text-align: center;
+  
+}
+
+
+.footer-sep .NalapYt {
+  padding: 2rem;
+  margin: 50px;
+  
+
+}
+
+.footer-sep .NalapYt .a-list {
+
+  display: block;
+  text-decoration: none;
+  color: #f4f4f4;
+  text-align: center;
+  
+
+}
+
+.footer-sep  .NalapYt .a-list:hover {
+
+  display: block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  border-image-slice: 1;
+  text-align: center;
+}
+
+.footer-sep  .Support .a-list:hover {
+
+  display: block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+  border-image-slice: 1;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 760px) {
+  
+  .footer-flex {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .footer-sep {
+    display: grid;
+    grid-template-columns: repeat (2 , 1fr);
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  
+  
+  
+  .Social-media {
+    display: block;
+    padding: 2rem;
+    color: #f4f4f4;
+    margin: 5px;
+    margin: 50px;
+    
+  
+  }
+  
+  .Social-media  .footer-sep-h {
+    color: #fcb045
+    
+  
+  }
+  
+  .Social-media i{
+    color: #f4f4f4;
+    
+    margin: 5px;
+    
+    
+  
+  }
+  
+  .footer-sep .Support{
+    display: block;
+    padding: 2rem;
+    margin: 50px;
+  }
+  
+  .footer-sep .Support .a-list{
+  
+    text-decoration: none;
+    color: #f4f4f4;
+    text-align: center;
+    
+  }
+  
+  
+  .footer-sep .NalapYt {
+    display: block;
+    padding: 2rem;
+    margin: 50px;
+    
+  
+  }
+  
+  .footer-sep .NalapYt .a-list {
+  
+  
+    text-decoration: none;
+    color: #f4f4f4;
+    text-align: center;
+    
+  
+  }
+  
+
+}
 
 
 
