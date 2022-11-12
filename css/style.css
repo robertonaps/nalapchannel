@@ -2038,6 +2038,8 @@ iframe {
 
 
 /* footer-sep */
+
+
 .footer-background {
 
     background-color: #020202;
@@ -2085,7 +2087,7 @@ iframe {
 }
 
 .footer-sep .Support {
-
+     color: #fcb045;
     padding: 2rem;
     margin: 50px;
 }
@@ -2100,11 +2102,14 @@ iframe {
 
 
 .footer-sep .NalapYt {
+    color: #fcb045;
     padding: 2rem;
     margin: 50px;
 
 
 }
+
+
 
 .footer-sep .NalapYt .a-list {
 
@@ -2124,6 +2129,7 @@ iframe {
     border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
     text-align: center;
+    
 }
 
 .footer-sep .Support .a-list:hover {
@@ -2169,7 +2175,7 @@ iframe {
     }
 
     .Social-media .footer-sep-h {
-        color: #fcb045
+        color: #fcb045;
 
 
     }
