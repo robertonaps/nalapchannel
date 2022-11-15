@@ -804,6 +804,7 @@ iframe {
     padding: 2rem;
 }
 
+
 h3 {
     color: #f4f4f4;
     padding: 10px;
@@ -1978,6 +1979,7 @@ iframe {
         padding-bottom: 1rem;
     }
 
+
     .img-alb-coc {
         text-align: center;
         align-content: center;
@@ -2039,6 +2041,7 @@ iframe {
     }
 
 }
+
 
 
 
@@ -2196,6 +2199,244 @@ iframe {
 
 
 }
+
+
+/* avakin_album.html*/
+
+.album-avakin {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+    );
+    padding: 5%;
+}
+
+.h-alb-avakin {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fcb045;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.img-alb-avakin {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.img-alb-avakin .img-pic-avakin {
+    width: 100%;
+    max-width: 300px;
+    height: inherit;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.img-alb-avakin .img-pic-avakin:hover {
+    transform: scale(0.8);
+}
+
+.img-alb-coc .tittle-img-alb-coc {
+    color: #f4f4f4;
+}
+
+.full-images-avakin {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-images-avakin .full-pic-avakin {
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.full-images-avakin .closebtn {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.full-images-avakin .closebtn:hover {
+    color: rgba(224, 7, 7, 0.925);
+}
+
+@media Only screen and (max-width: 760px) {
+
+
+
+    .h-alb-avakin {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px;
+        text-align: center;
+        color: #fcb045;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .img-alb-avakin {
+        text-align: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .img-alb-avakin .img-pic-avakin {
+        width: 100%;
+        max-width: 270px;
+        height: inherit;
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .img-alb-avakin .img-pic-avakin:hover {
+        transform: scale(0.8);
+    }
+
+    .img-alb-coc .tittle-img-alb-coc {
+        color: #f4f4f4;
+        font-size: 14px;
+    }
+
+    .full-images-avakin {
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    .full-images-avakin .full-pic-avakin {
+        width: 90%;
+        max-width: 800px;
+        border-radius: 10px;
+    }
+
+    .full-images-avakin .closebtn {
+        position: absolute;
+        top: 15%;
+        right: 15%;
+        font-size: 30px;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .full-images-avakin .closebtn:hover {
+        color: rgba(224, 7, 7, 0.925);
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+    .h-alb-avakin {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 20px;
+        text-align: center;
+        color: #fcb045;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+
+    .img-alb-avakin {
+        text-align: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .img-alb-avakin .img-pic-avakin {
+        width: 100%;
+        max-width: 180px;
+        height: inherit;
+        padding: 10px;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .img-alb-avakin .img-pic-avakin:hover {
+        transform: scale(0.8);
+    }
+
+    .img-alb-avakin .tittle-img-alb-avakin {
+        color: #f4f4f4;
+        font-size: 12px;
+    }
+
+    .full-images-avakin {
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        top: 0;
+        left: 0;
+        position: fixed;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+    }
+
+    .full-images-avakin .full-pic-avakin {
+        width: 90%;
+        max-width: 800px;
+        border-radius: 10px;
+    }
+
+    .full-images-avakin .closebtn {
+        position: absolute;
+        top: 15%;
+        right: 15%;
+        font-size: 30px;
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .full-images-avakin .closebtn:hover {
+        color: rgba(224, 7, 7, 0.925);
+    }
+
+}
+
+
+
 
 
 /* footer-sep */
