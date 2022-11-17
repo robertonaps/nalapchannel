@@ -1843,7 +1843,6 @@ iframe {
     width: 100%;
     max-width: 300px;
     height: inherit;
-    padding: 10px;
     text-align: center;
     border-radius: 15px;
 }
@@ -1915,7 +1914,6 @@ iframe {
         width: 100%;
         max-width: 270px;
         height: inherit;
-        padding: 10px;
         text-align: center;
         border-radius: 15px;
     }
@@ -1994,7 +1992,6 @@ iframe {
         width: 100%;
         max-width: 180px;
         height: inherit;
-        padding: 10px;
         text-align: center;
         border-radius: 15px;
     }
@@ -2236,15 +2233,14 @@ iframe {
     width: 100%;
     max-width: 300px;
     height: inherit;
-    padding: 10px;
     text-align: center;
-    border-radius: 15px;
+    
 }
 .img-alb-avakin .img-pic-avakin:hover {
     transform: scale(0.8);
 }
 
-.img-alb-coc .tittle-img-alb-coc {
+.img-alb-avakin .tittle-img-alb-avakin {
     color: #f4f4f4;
 }
 
@@ -2308,15 +2304,14 @@ iframe {
         width: 100%;
         max-width: 270px;
         height: inherit;
-        padding: 10px;
         text-align: center;
-        border-radius: 15px;
+
     }
     .img-alb-avakin .img-pic-avakin:hover {
         transform: scale(0.8);
     }
 
-    .img-alb-coc .tittle-img-alb-coc {
+    .img-alb-avakin .tittle-img-alb-avakin {
         color: #f4f4f4;
         font-size: 14px;
     }
@@ -2387,9 +2382,8 @@ iframe {
         width: 100%;
         max-width: 180px;
         height: inherit;
-        padding: 10px;
         text-align: center;
-        border-radius: 15px;
+        
     }
     .img-alb-avakin .img-pic-avakin:hover {
         transform: scale(0.8);
