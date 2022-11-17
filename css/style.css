@@ -1817,6 +1817,8 @@ iframe {
     rgba(2, 0, 36, 1) 0%,
     rgba(7, 34, 77, 1) 99%
     );
+
+    height: fit-content;
     padding: 5%;
 }
 
@@ -1965,7 +1967,6 @@ iframe {
 
 
 @media only screen and (max-width: 480px) {
-
 
 
     .h-alb-coc {
