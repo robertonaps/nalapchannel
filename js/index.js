@@ -2,9 +2,18 @@ function myDownload() {
   location.replace("https://aq3d.com/");
 }
 
-// transfer document in other page
+function myalbum(){
 
-// social media onclick
+  window.location.href = 'albumaq.html';
+
+}
+
+
+function myblog(){
+  window.location.href = 'blogaq.html';
+}
+
+
 
 function mysocialfb() {
   location.replace("https://web.facebook.com/nalapchan");
@@ -15,4 +24,14 @@ function yYoutube() {
 }
 
 
+function aq(){
+  window.location.href = 'aq.html';
+}
 
+function coc(){
+  window.location.href = 'coc.html';
+}
+
+function avakin(){
+  window.location.href = 'avakin.html';
+}
