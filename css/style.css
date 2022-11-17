@@ -1379,13 +1379,23 @@ iframe {
     justify-items: center;
     padding: 1rem;
     gap: 1rem;
+    background: rgba(0, 0, 0, 0.6);
     border-bottom: 5px solid transparent;
     border-image: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
     border-image-slice: 1;
-    background: rgba(0, 0, 0, 0.6);
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
+    transition:  0.2 ease-in;
 }
+.game-box .gameitem:hover{
+    
+    background: rgba(4, 72, 182, 0.507);
+    
+
+}
+
+
+
 .gameitem .gametittleitem {
     text-align: center;
     color: #f4f4f4;
