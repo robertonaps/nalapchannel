@@ -1,5 +1,5 @@
 function myDownload() {
-    location.replace("https://avakin.com/");
+  window.open("https://avakin.com/");
   }
 
   

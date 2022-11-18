@@ -1,5 +1,5 @@
 function myDownload() {
-    location.replace("https://supercell.com/en/games/clashofclans/");
+  window.open("https://supercell.com/en/games/clashofclans/");
   }
 
  

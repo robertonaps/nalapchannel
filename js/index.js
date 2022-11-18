@@ -1,5 +1,5 @@
 function myDownload() {
-  location.replace("https://aq3d.com/");
+  window.open("https://aq3d.com/");
 }
 
 function myalbum(){
@@ -16,11 +16,11 @@ function myblog(){
 
 
 function mysocialfb() {
-  location.replace("https://web.facebook.com/nalapchan");
+  window.open("https://web.facebook.com/nalapchan");
 }
 
 function yYoutube() {
-  location.replace("https://www.youtube.com/channel/UCVMGe3T-F3ooH_3FE1vm0LQ");
+  window.open("https://www.youtube.com/channel/UCVMGe3T-F3ooH_3FE1vm0LQ");
 }
 
 
@@ -34,4 +34,10 @@ function coc(){
 
 function avakin(){
   window.location.href = 'avakin.html';
+}
+
+
+function wom(){
+
+  window.location.href = 'wom.html';
 }
