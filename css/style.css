@@ -191,44 +191,30 @@ ul li:hover {
 
 /* end cover */
 
+/* ABOUT BOOTSTRAP */
 
-/* section-thre-about-media-home */
-
-.sec-about-media {
-    background: rgb(2, 0, 36);
-
+.modal-content{
+background-color: rgba(0, 0, 0, 0.6);
 }
 
-.about-h .h-about-media {
-    color: #f4f4f4;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.about-h .p-about-media {
-    text-align: center;
+.modal-title{
     color: #f4f4f4;
 }
 
-.about-h .span-about-media {
+.modal-body .p-about-media{
+
+    color: #f4f4f4;
+
+}
+.modal-body .span-about-media{
+
     color: #f4f4f4;
 }
 
-.media-logo {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: #f4f4f4;
-    text-align: right;
+.btn:hover {
+    background-color: rgba(224, 7, 7, 0.925);
 }
 
-.media-logo .bi {
-    margin: 5px;
-}
-
-.media-logo .bi:hover {
-    margin: 5px;
-    color: aqua;
-}
 
 /*albumaq.html*/
 
