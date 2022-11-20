@@ -194,21 +194,38 @@ ul li:hover {
 /* ABOUT BOOTSTRAP */
 
 .modal-content{
-background-color: rgba(0, 0, 0, 0.6);
+background-color: rgba(2, 2, 2, 0.6);
+border-bottom: 2px solid transparent;
+border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
+border-image-slice: 1;
 }
 
 .modal-title{
-    color: #f4f4f4;
+    color: #ebecec;
+    font-family: 'Poppins', sans-serif;
 }
 
 .modal-body .p-about-media{
 
     color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 
 }
+.modal-header {
+    border: rgba(0, 0, 0, 0.6);
+
+}
+
+.modal-footer{
+
+border: rgba(0, 0, 0, 0.6);
+}
+
 .modal-body .span-about-media{
 
     color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn:hover {
