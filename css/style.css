@@ -1598,8 +1598,14 @@ iframe {
 
 }
 
+.warn-note { 
+    color: #c78d21cc;
+    padding: 40px;
+}
+
 .btn-ls-aq {
     text-align: center;
+    padding-top: 20px;
 }
 
 .btn-ls-aq .btn-aq {
@@ -1632,6 +1638,11 @@ iframe {
     border-image-slice: 1;
 }
 
+
+
+
+
+
 @media Only screen and (max-width: 760px) {
 
 
@@ -1659,8 +1670,14 @@ iframe {
 
         color: #f4f4f4;
         text-align: left;
-        font-size: 12px;
+        font-size: 13px;
 
+    }
+
+    .warn-note { 
+        color: #c78d21cc;
+        padding: 40px;
+        font-size: 12px;
     }
 
 }
@@ -1695,6 +1712,11 @@ iframe {
         text-align: left;
         font-size: 10px;
 
+    }
+    .warn-note { 
+        color: #c78d21cc;
+        padding: 40px;
+        font-size: 10px;
     }
 
 }
@@ -1743,6 +1765,7 @@ iframe {
 
 .btn-ls-coc {
     text-align: center;
+    padding-top: 20px;
 }
 
 .btn-ls-coc .btn-coc {
@@ -2129,6 +2152,7 @@ iframe {
 
 .btn-ls-avakin {
     text-align: center;
+    padding-top: 20px;
 }
 
 .btn-ls-avakin .btn-avakin {
@@ -2511,13 +2535,13 @@ iframe {
 
 .btn-ls-wom {
     text-align: center;
+    padding-top: 20px;
 }
 
 .btn-ls-wom .btn-wom {
     width: 100%;
     width: 250px;
     height: 50px;
-    padding-top: 20px ;
     margin: 5px;
     color: #f4f4f4;
     background: rgba(0, 0, 0, 0.6);
@@ -2526,6 +2550,8 @@ iframe {
 .btn-ls-wom .btn-wom a {
     color: #f4f4f4;
     text-decoration: none;
+    
+
 
 }
 
@@ -2536,7 +2562,7 @@ iframe {
     border-image-slice: 1;
 }
 
-.btn-ls-wom.btn-wom a:hover {
+.btn-ls-wom .btn-wom a:hover {
     color: #fcb045;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(50deg, #833ab4, #fd1d1d, #fcb045);
