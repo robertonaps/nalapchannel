@@ -1601,6 +1601,7 @@ iframe {
 .warn-note { 
     color: #c78d21cc;
     padding: 40px;
+    text-align: left;
 }
 
 .btn-ls-aq {
