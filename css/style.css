@@ -212,6 +212,13 @@ border-image-slice: 1;
     font-weight: 300;
 
 }
+.modal-body .p-disclaimer{
+
+    color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
 .modal-header {
     border: rgba(0, 0, 0, 0.6);
 
@@ -3330,3 +3337,4 @@ footer {
         border-bottom: 2px solid rgb(90, 197, 230);
     }
 }
+
