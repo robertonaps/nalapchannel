@@ -32,7 +32,7 @@
 }
 ul {
     padding: 0px;
-    margin: auto;
+    margin: auto;  
 }
 
 .dropdown-menu {
@@ -3338,3 +3338,12 @@ footer {
     }
 }
 
+
+.fbroot {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+    53deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(7, 34, 77, 1) 99%
+    );
+}
