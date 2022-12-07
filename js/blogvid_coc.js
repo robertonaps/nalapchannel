@@ -9,3 +9,16 @@ $(".popupcoc").click(function () {
     $("#video-view").html($title).append($iframe);
     $iframe.wrap("<div class='class-video'>");
   });
+
+
+  function mysocialfb() {
+    window.open("https://web.facebook.com/nalapchan");
+  }
+  
+  function yYoutube() {
+    window.open("https://www.youtube.com/channel/UCVMGe3T-F3ooH_3FE1vm0LQ");
+  }
+  
+  function openpypal() {
+    window.open("https://paypal.me/nalapyt?country.x=PH&locale.x=en_US");
+  }
