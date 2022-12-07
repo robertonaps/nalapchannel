@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <link rel="shortcut icon" href="css/image/logo.png" type="image/x-icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!---bootrap5-->
@@ -118,7 +117,6 @@
     <!--cover-->
 
     <section class="main-sec">
-        <!-- <h2 class="main-h"> NALAP CHANNEL</h2> -->
 
         <div class="container">
             <div class="main-box">
@@ -133,35 +131,73 @@
             </div>
         </div>
     </section>
-
-    <!-- this for implementing design such us gaming purposes -->
+    
     <section class="playoff">
         <div class="container">
             <div class="gameplayoff">
                 <div class="game-text">
                     <h1 class="game-h">Let's play with us</h1>
-                    <span class="gameanimtext" id="gamechngingcontent"></span>
                     <p class="game-p">
                         This game is for entertainment, socializing, making friends, and more!
                     </p>
                 </div>
-
-                <div class="game-imges">
-                    <img class="pic-info" src="css/image/coverallgame.png" alt="" />
-                </div>
+    
+                <!-- coursel -->
+    
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
+    </div>
+    
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="css/image/adventurequest3dslide.jpg" class="covers d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img src="css/image/avakinlifeslid.jpg" class="covers d-block w-100" >
+        </div>
+        <div class="carousel-item" data-bs-interval="30000">
+          <img src="css/image/clashofclanslide.jpg" class="covers d-block w-100">
+        </div>
+    
+        <div class="carousel-item" data-bs-interval="40000">
+          <img src="css/image/walkonlineslide.jpg" class=" covers d-block w-100">
+        </div>
+    
+      </div>
+    
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+                
+                
+    
+    
+    
+        <!-- end coursel -->
             </div>
         </div>
     </section>
-    <!-- this for implementing design such us gaming purposes -->
-
+    
+    
     <section class="game-list" id="game">
         <div class="container">
             <h1 class="gamelisttittle">Game listed:</h1>
             <p class="gamelistpar">
                 There are different games available here (based on the content creator):<br>
-Mmorpg, casual, strategy, and so on. 
+                Mmorpg, casual, strategy, and more.
             </p>
-
+    
             <div class="game-box">
                 <div class="gameitem" onclick="aq()">
                     <div>
@@ -170,14 +206,10 @@ Mmorpg, casual, strategy, and so on. 
                         </h3>
                     </div>
                     <div class="imgcenter">
-                        <img
-                        class="gameimageitem"
-                        src="css/image/gamcoveraq3d.jpg"
-                        alt=""
-                        />
+                        <img class="gameimageitem" src="css/image/gamcoveraq3d.jpg" alt="" />
                     </div>
                 </div>
-
+    
                 <div class="gameitem" onclick="coc()">
                     <div>
                         <h3 class="gametittleitem" id="coc">
@@ -185,14 +217,10 @@ Mmorpg, casual, strategy, and so on. 
                         </h3>
                     </div>
                     <div class="imgcenter">
-                        <img
-                        class="gameimageitem"
-                        src="css/image/gamecovercoc.jpg"
-                        alt=""
-                        />
+                        <img class="gameimageitem" src="css/image/gamecovercoc.jpg" alt="" />
                     </div>
                 </div>
-
+    
                 <div class="gameitem" onclick="avakin()">
                     <div>
                         <h3 class="gametittleitem" id="avakin">
@@ -200,14 +228,10 @@ Mmorpg, casual, strategy, and so on. 
                         </h3>
                     </div>
                     <div class="imgcenter">
-                        <img
-                        class="gameimageitem"
-                        src="css/image/gamecoveravakin.jpg"
-                        alt=""
-                        />
+                        <img class="gameimageitem" src="css/image/gamecoveravakin.jpg" alt="" />
                     </div>
                 </div>
-
+    
                 <div class="gameitem" onclick="wom()">
                     <div>
                         <h3 class="gametittleitem" id="wom">
@@ -215,19 +239,16 @@ Mmorpg, casual, strategy, and so on. 
                         </h3>
                     </div>
                     <div class="imgcenter">
-                        <img
-                        class="gameimageitem"
-                        src="css/image/gamecoverwalkonline.jpg"
-                        alt=""
-                        />
+                        <img class="gameimageitem" src="css/image/gamecoverwalkonline.jpg" alt="" />
                     </div>
                 </div>
-
+    
                 <span class="spar">Choose the game you want to play! Just click on it.
                 </span>
             </div>
         </div>
     </section>
+    
 
 
     <section class="footer-background">
