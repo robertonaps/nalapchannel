@@ -66,12 +66,12 @@ function openpypal() {
 
 function refresh(){
 
-  window.location.href = 'albumaq.php';
+  window.location.href = 'albumaq.html';
 
 }
 
 function back(){
 
-  window.location.href = 'aq.php';
+  window.location.href = 'aq.html';
 
 }

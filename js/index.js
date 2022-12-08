@@ -1,18 +1,19 @@
-function myDownload() {
-  window.open("https://aq3d.com/");
-}
 
 function myalbum(){
 
-  window.location.href = 'albumaq.php';
+  window.location.href = 'albumaq.html';
 
 }
 
 
 function myblog(){
-  window.location.href = 'blogaq.php';
+  window.location.href = 'blogaq.html';
 }
 
+
+function myDownload() {
+  window.open("https://aq3d.com/");
+}
 
 
 function mysocialfb() {
@@ -35,19 +36,19 @@ function openpypal() {
 
 
 function aq(){
-  window.location.href = 'aq.php';
+  window.location.href = 'aq.html';
 }
 
 function coc(){
-  window.location.href = 'coc.php';
+  window.location.href = 'coc.html';
 }
 
 function avakin(){
-  window.location.href = 'avakin.php';
+  window.location.href = 'avakin.html';
 }
 
 
 function wom(){
 
-  window.location.href = 'wom.php';
+  window.location.href = 'wom.html';
 }
