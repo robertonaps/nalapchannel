@@ -431,6 +431,11 @@
     .full-imagesaq .closebtnaq:hover {
       color: rgba(224, 7, 7, 0.925);
     }
+
+    .fb-comments {
+      background-color: #ebecec;
+      
+    }
   
   }
   
@@ -493,6 +498,11 @@
     
     .full-imagesaq .closebtnaq:hover {
       color: rgba(224, 7, 7, 0.925);
+    }
+
+    .fb-comments {
+      background-color: #ebecec;
+      
     }
   
   }
