@@ -249,7 +249,7 @@ ul li:hover {
 
 
 
-/*albumaq.html*/
+/*albumaq.php*/
 
 .albumaq {
 
@@ -383,7 +383,7 @@ ul li:hover {
   
   .listdflex .listgrid .chge-img .imges {
     width: 100%;
-    width: 150px;
+    width: 130px;
     height: 100px;
   }
   
@@ -445,8 +445,8 @@ ul li:hover {
   
   .listdflex .listgrid .chge-img .imges {
     width: 100%;
-    width: 140px;
-    height: 100px;
+    width: 110px;
+    height: 70px;
   }
   
   /* fullimage */
