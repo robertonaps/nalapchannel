@@ -3045,7 +3045,7 @@ footer {
   color: #fcb045;
 }
 
-.in-lineblock {
+.in-lineblock .fb-comments {
   display: block;
 }
 
